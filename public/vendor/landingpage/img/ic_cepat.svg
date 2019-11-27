@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="496" height="390" viewBox="0 0 496 390">
+    <defs>
+        <style>
+            .cls-1{fill:#fdfdfd}.cls-2{fill:#f8af19}.cls-3{fill:none}.cls-4{fill:#fff}.cls-5{filter:url(#Rectangle_762)}
+        </style>
+        <filter id="Rectangle_762" width="496" height="390" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="10"/>
+            <feFlood flood-opacity=".149"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="ic_cepat" transform="translate(-1172 -1405)">
+        <g class="cls-5" transform="translate(1172 1405)">
+            <rect id="Rectangle_762-2" width="436" height="330" class="cls-1" data-name="Rectangle 762" rx="5" transform="translate(30 27)"/>
+        </g>
+        <g id="Group_81" data-name="Group 81">
+            <path id="Intersection_3" d="M-3922 173.406V71a5 5 0 0 1 5-5h112.276A86.517 86.517 0 0 1-3800 94.29a86.638 86.638 0 0 1-86.637 86.638 86.333 86.333 0 0 1-35.363-7.522z" class="cls-2" data-name="Intersection 3" transform="translate(5124 1366)"/>
+            <g id="Group_68" data-name="Group 68" transform="translate(-4771 122)">
+                <path id="Rectangle_768" d="M0 0h64v64H0z" class="cls-3" data-name="Rectangle 768" transform="translate(5991 1327)"/>
+                <g id="Group_67" data-name="Group 67" transform="translate(43 3.998)">
+                    <path id="Subtraction_1" d="M9.5 19A9.5 9.5 0 1 1 19 9.5 9.511 9.511 0 0 1 9.5 19zm2.47-14.948a1.68 1.68 0 0 0-1.311.625L6.846 9.385a1.685 1.685 0 0 0 .248 2.372 1.764 1.764 0 0 0 .293.191 1.691 1.691 0 0 0 1.075.388h.03l6.057-.106a1.686 1.686 0 0 0-.029-3.372h-.03l-2.921.051 1.71-2.109a1.686 1.686 0 0 0-1.309-2.748z" class="cls-4" data-name="Subtraction 1" transform="translate(5982 1348)"/>
+                    <path id="Path_498" d="M18.551 0h-6.744a1.686 1.686 0 1 0 0 3.372h6.744a1.686 1.686 0 1 0 0-3.372zm8.481 10.773L28.3 9.509a1.674 1.674 0 0 0 0-2.36l-.017-.017a1.674 1.674 0 0 0-2.36 0L24.654 8.4a15.109 15.109 0 0 0-9.475-3.338A15.343 15.343 0 0 0 .005 19.827a15.177 15.177 0 1 0 27.026-9.054zM15.179 32.034a11.8 11.8 0 1 1 11.8-11.8 11.793 11.793 0 0 1-11.8 11.8z" class="cls-4" data-name="Path 498" transform="rotate(10.02 -4624.817 34771.647)"/>
+                    <rect id="Rectangle_764" width="15.174" height="3.372" class="cls-4" data-name="Rectangle 764" rx="1.686" transform="translate(5959.43 1352.53)"/>
+                    <rect id="Rectangle_765" width="8.43" height="3.372" class="cls-4" data-name="Rectangle 765" rx="1.686" transform="translate(5969.546 1344.099)"/>
+                    <rect id="Rectangle_766" width="23.604" height="3.372" class="cls-4" data-name="Rectangle 766" rx="1.686" transform="translate(5951 1360.959)"/>
+                    <rect id="Rectangle_767" width="11.802" height="3.372" class="cls-4" data-name="Rectangle 767" rx="1.686" transform="translate(5967.86 1369.389)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

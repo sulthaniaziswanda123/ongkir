@@ -1,0 +1,249 @@
+div ul li a #btn-daftar {
+    background-color: #ff9800;
+}
+
+.titipmasa-logo {
+    padding: 0%;
+    max-width: 180px;
+}
+
+div ul li a.btn-masuk {
+    border-color: #ff9800;
+}
+
+header div ul li a.nav-submenu:hover {
+    color: white;
+    background-color: #ff9800;
+}
+
+/*warna*/
+/* gelap #232e40*/
+/*#ff9800*/
+
+.bg-color {
+    background-color: #ff9800 ;
+}
+.margin-header {
+    margin-top: 5%;
+    /*margin-left: 13%;*/
+}
+
+.search-input {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 400px;
+    background: #d7ded9;
+
+
+
+}
+.search-input:focus {
+    border-color: #ff9800;
+    background: #d7ded9;
+    color: black;
+}
+
+button, .menu {
+    background-color: #ff9800;
+
+}
+
+.search-barang, .menu-tap {
+    display: flex;
+
+}
+
+.btn-cari {
+    margin-left: -50px;
+}
+
+.menu-tap {
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-center {
+    margin: auto;
+}
+.portfolio-item {
+    margin: 30px;
+}
+
+h4.text-center {
+    margin-top: 80px;
+}
+
+.menu-kategori {
+    border: 1px solid;
+    height: 500px;
+    padding: 10px;
+    border-color: #ebe7df;
+}
+
+.menu-kategori ul li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.menu-kategori ul {
+    margin: 0px;
+    padding: 3px;
+}
+.menu-kategori ul li a {
+    color: black;
+}
+
+.menu-kategori ul li:hover {
+    background-color: #ff9800;
+    cursor: pointer;
+
+}
+
+
+.form-control:focus {
+    border-color: #ff9800;
+}
+
+.select2-selection--single .select2-selection__rendered:focus {
+    border-color: #ff9800;
+}
+
+.card:hover {
+    border-color: #ff9800;
+}
+
+footer {
+    background: #232e40;
+}
+.mt-time {
+    margin-top: 30px;
+}
+
+.waktu-trip {
+    position: absolute;
+    bottom: 250px;
+    right: 140px;
+    color: blue;
+}
+
+hr.outline {
+    margin: 0px;
+    width: 100px;
+    border: 1px solid #ff9800;
+}
+
+.garis-bawah {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ff9800;
+}
+
+.blok-content {
+    width: 300px;
+    height: 100px;
+}
+
+hr.bottom-link {
+    position: relative;
+    top: 20px;
+}
+
+.judul-left {
+    position: relative;
+    top: 15px;
+}
+
+.block-trip {
+    height: 270px;
+
+}
+
+.icon-chat {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #ff9800;
+    border-radius: 50%;
+
+}
+
+.color-text {
+    color: #ff9800;
+}
+
+.text-color {
+    color: #ff9800;
+}
+
+.btn-right {
+    float: right;
+}
+
+.icon-edit {
+    float: right;
+    margin: 10px 20px 20px 0px;
+}
+
+.blog-request-post {
+    height: 420px;
+}
+
+.content-request {
+    alignment: center;
+    margin-bottom: 50px;
+}
+
+.block-traveller {
+    height: 220px;
+    text-align: center;
+}
+
+.badge-request {
+    background-color: #5cb85c;
+    padding: 1px;
+    width: 50px;
+    color: white;
+    margin: auto;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.separator{
+    border-left: 1px solid #ff9800 ;
+    height: 450px;
+
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .separator {
+        border-left: none;
+    }
+    hr.separator{
+        display: block;
+    }
+}
+
+p span.tap {
+
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+

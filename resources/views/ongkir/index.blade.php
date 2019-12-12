@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
  <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ route('home') }}">
                    KuyOngkir
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -54,7 +54,7 @@
 
     <main id="main-container">
         <div class="container mt-50">
-            <h3 class="col-md-6 text-center">Tarif Kiriman</h3>
+            <h3 class="text-center mb-5">Tarif Kiriman</h3>
             <div class="row">
                 <div class="col-md-5">
                     <!-- Block Tabs Animated Fade -->
@@ -100,8 +100,8 @@
                                             <td>{{ $loop->iteration }}</td>
                                             <td>{{ $item['service'] }}</td>
                                             @foreach($item['cost'] as $value)
-                                                <td>{{ $value['value'] }}</td>
-                                                <td>{{ $value['etd'] }}</td>
+                                                <td>{{ "Rp " . number_format($value['value'],0,',','.') }}</td>
+                                                <td>{{ $value['etd'] }} hari</td>
                                             @endforeach
                                         </tr>
                                     @endforeach

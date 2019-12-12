@@ -9,7 +9,7 @@
                         <select class="js-select2 form-control" id="dari_kota" name="origin" style="width: 100%;" data-placeholder="Pilih Kota..">
                             <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
                             @foreach($cities as $city)
-                                <option value="{{ $city['city_id'] }}">{{ $city['type'] . ' ' .$city['city_name'] }}</option>
+                                <option value="{{ $city['city_id'] }}">{{ $city['type'] . ' ' .$city['city_name'] . ', ' .$city['province'] }}</option>
                             @endforeach
                         </select>
                     </div>
@@ -24,7 +24,7 @@
                         <select class="js-select2 form-control" id="tujuan_kota" name="destination" style="width: 100%;" data-placeholder="Pilih Kota..">
                             <option></option><!-- Required for data-placeholder attribute to work with Select2 plugin -->
                             @foreach($cities as $city)
-                                <option value="{{ $city['city_id'] }}">{{ $city['type'] . ' ' .$city['city_name'] }}</option>
+                                <option value="{{ $city['city_id'] }}">{{ $city['type'] . ' ' .$city['city_name'] . ', ' .$city['province'] }}</option>
                             @endforeach
                         </select>
                     </div>
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="">Berat</label>
+                        <label for="">Berat (kg)</label>
                         <input type="number" name="weight" class="form-control">
                     </div>
                 </div>

@@ -16,6 +16,10 @@
 Route::get('/cek', 'OngkirController@index')->name('cek');
 Route::post('/cek', 'OngkirController@store')->name('store.ongkir');
 
+Route::get('/gempa', 'GempaController@index')->name('gempa');
+Route::get('/gempa/ongkir/{lat}/{lon}', 'GempaController@ongkir')->name('gempa.ongkir');
+Route::post('/gempa/cek/{lat}/{lon}', 'GempaController@store')->name('gempa.ongkir.price');
+
 Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');

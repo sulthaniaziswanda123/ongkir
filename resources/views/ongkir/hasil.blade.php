@@ -31,8 +31,8 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $item['service'] }}</td>
                                         @foreach($item['cost'] as $value)
-                                            <td>{{ $value['value'] }}</td>
-                                            <td>{{ $value['etd'] }}</td>
+                                            <td>{{ "Rp " . number_format($value['value'],0,',','.') }}</td>
+                                            <td>{{ $value['etd'] }} hari</td>
                                         @endforeach
                                     </tr>
                                 @endforeach
